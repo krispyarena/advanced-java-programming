@@ -3,7 +3,7 @@ package netProgramming;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class First {
+public class URLClass {
 
     public static void main(String[] args) {
         

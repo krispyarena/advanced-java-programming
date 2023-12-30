@@ -1,6 +1,6 @@
 package multithreading;
 
-public class A extends Thread{
+public class EvenThread extends Thread{
 
     @Override
     public void run(){
