@@ -5,7 +5,7 @@ import java.io.DataOutputStream;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class ClientCBC {
+public class TCPClient {
     
     
     public static void main(String[] args) {

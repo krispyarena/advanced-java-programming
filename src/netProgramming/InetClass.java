@@ -6,7 +6,7 @@ public class InetClass {
     
     public static void main(String[] args) throws Exception {
         
-        InetAddress ip = InetAddress.getByName("www.unacademy.com");
+        InetAddress ip = InetAddress.getByName("www.fcbayern.com");
 
 
         InetAddress i = InetAddress.getLocalHost();

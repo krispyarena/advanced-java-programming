@@ -8,7 +8,7 @@ public class URLClass {
     public static void main(String[] args) {
         
         try {
-            URL obj = new URL("https://www.unacademy.com:60/index.html");
+            URL obj = new URL("https://www.fcbayern.com:60/index.html");
 
             System.out.println("Host : " + obj.getHost());
             System.out.println("Protocol : " + obj.getProtocol());
