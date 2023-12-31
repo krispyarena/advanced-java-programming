@@ -7,7 +7,7 @@ class Scaling extends JFrame{
   int x1 = 50, y1 = 50;
   int x2 = 100, y2 = 100;
 
-  int sx = 4, int sy = 4;
+  int sx = 4, sy = 4;
 
   int px1, py1, px2, py2;
 
