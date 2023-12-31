@@ -1,8 +1,6 @@
 package biplove;
 
-import java.util.Date;
 import java.util.Scanner;
-//import java.util.Date;
 
 public class ArrayTest {
     
@@ -27,7 +25,6 @@ public class ArrayTest {
             System.out.println();
         }
 
-        Date today = new Date();
 
         sc.close();
         

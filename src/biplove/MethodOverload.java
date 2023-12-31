@@ -1,6 +1,13 @@
 package biplove;
 
 public class MethodOverload {
+
+    /* Method Overloading:
+     *  We can define multiple methods with same name but either with 
+     *  different type of parameters or with different number of parameters.
+     * 
+     * `Method Overloading is one of the example of Polymorphism. 
+     */
     public static void main(String[] args) {
 
         MethodOverload mo = new MethodOverload();

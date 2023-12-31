@@ -12,8 +12,9 @@ public class Nischal extends Kritan{
 
 class Biplove {
     public static void main(String[] args) {
-        Kritan k = new Kritan(12);
+        new Kritan(12);
+        
         System.out.println("Nischal Details: ");
-        Nischal n = new Nischal(15, 1);
+        new Nischal(15, 1);
     }
 }
