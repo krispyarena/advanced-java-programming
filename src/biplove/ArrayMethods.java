@@ -15,10 +15,10 @@ public class ArrayMethods {
         }
 
         //Arrays.fill(a, 1);
-        //System.out.println("Index = " + Arrays.binarySearch(b, 100));
+        System.out.println("Index = " + Arrays.binarySearch(b, 100));
         System.out.println(Arrays.equals(a,b));
         
-        //Arrays.sort(a);
+        Arrays.sort(a);
 
         System.arraycopy(a, 0, b, 0, 7);
 

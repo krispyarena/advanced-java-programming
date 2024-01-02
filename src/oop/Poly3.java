@@ -9,7 +9,6 @@ public class Poly3 extends AbsClass{
 
     @Override
     int sum() {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'sum'");
     }
 }
