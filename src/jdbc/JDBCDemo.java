@@ -16,7 +16,7 @@ public class JDBCDemo {
 
             Statement stm = con.createStatement();
 
-            ResultSet rs = stm.executeQuery("SELECT * FROM student");
+            ResultSet rs = stm.executeQuery("SELECT * FROM STUDENT");
 
             while(rs.next()){
                 System.out.println("Name : " + rs.getString(1) +" " + "Roll : " + rs.getInt(2));
