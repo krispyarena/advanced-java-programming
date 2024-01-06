@@ -26,7 +26,8 @@ public class Calculator extends JFrame{
         l1.setForeground(Color.BLUE);
         add(l1);
         setLayout(null);
-        setVisible(true);
+        setBounds(400,200,400,300);
+        
 
         l3 = new JLabel("No 1:");
         l4 = new JLabel("No 2:");
@@ -64,6 +65,8 @@ public class Calculator extends JFrame{
         l2.setBounds(100,220,100,30);
         add(l2);
 
+        setVisible(true);
+
         b1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae){
                 double no1 = Double.parseDouble(t1.getText());
@@ -100,7 +103,6 @@ public class Calculator extends JFrame{
 
 class SimpleCalculator{
     public static void main(String[] args) {
-        Calculator c = new Calculator();
-        c.setBounds(400,200,400,300);
+        new Calculator();
     }
 }
