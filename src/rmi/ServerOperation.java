@@ -1,22 +1,24 @@
 package rmi;
 
-import java.net.MalformedURLException;
-import java.rmi.Naming;
 import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 
 public class ServerOperation {
     public static void main(String[] args) {
         
         try{
-            RemOperationImpl ri = new RemOperationImpl();
-            Naming.rebind("rmi:///RemOperation", ri);
+            Operation op = new OperationImpl();
+            Registry registry = LocateRegistry.createRegistry(2099);
+            registry.rebind("Operation", op);
+            System.out.println("Server Operation Ready !");
         }
         catch(RemoteException r){
             r.printStackTrace();
         }
 
-        catch(MalformedURLException m){
-            m.printStackTrace();
+        catch(Exception e){
+            e.printStackTrace();
         }
     }
 }

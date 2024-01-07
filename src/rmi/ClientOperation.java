@@ -1,38 +1,23 @@
 package rmi;
 
-import java.net.MalformedURLException;
-import java.rmi.Naming;
-import java.rmi.NotBoundException;
-import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 import java.util.Scanner;
 
 public class ClientOperation {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
 
-        String host = "localhost";
+        Registry registry = LocateRegistry.getRegistry("localhost");
+        Operation op = (Operation) registry.lookup("Operation");
+        
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter two numbers: ");
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
-        try{
-            RemOperation r = (RemOperation) Naming.lookup("rmi://" + host + "/RemOperation");
-            System.out.println("Sum : " + r.add(a, b));
-            System.out.println("Product : " + r.product(a, b));
-        }
-
-        catch(RemoteException re){
-            re.printStackTrace();
-        }
-
-        catch(NotBoundException nbe){
-            nbe.printStackTrace();
-        }
-
-        catch(MalformedURLException m){
-            m.printStackTrace();
-        }
+        System.out.println("Sum : " + op.add(a, b));
+        System.out.println("Product : " + op.product(a, b));
 
 
         scanner.close();
