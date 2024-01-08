@@ -27,3 +27,5 @@ Steps to write a RMI program
     3. Create, define and run server application.
 
     4. Create, define and run client application.
+
+    5. Server Program must be executed before Client Program.
