@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ClientOperation {
     public static void main(String[] args) throws Exception{
 
-        Registry registry = LocateRegistry.getRegistry("localhost");
+        Registry registry = LocateRegistry.getRegistry("localhost", 8080);
         Operation op = (Operation) registry.lookup("Operation");
         
         Scanner scanner = new Scanner(System.in);
