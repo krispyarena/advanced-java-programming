@@ -16,3 +16,14 @@ Benefits of RMI
     
     3. Resource Sharing
         - Access data and functionality from other applications or machines efficiently.
+
+Steps to write a RMI program
+
+    1. Create an interface and extend it with Remote interface.
+            - Define methods in this interface.
+    
+    2. Create an IMPL class for the above interface.
+
+    3. Create, define and run server application.
+
+    4. Create, define and run client application.
