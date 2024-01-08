@@ -28,4 +28,9 @@ Steps to connect to database in JAVA:
             stm.close();
             con.close();
 
+Adding a JAR File
+
+        JAR Stands for JAVA Archive. Download respective JDBC Driver JAR file.
+
+        Place that .jar file in "Referenced Libraries"
 
