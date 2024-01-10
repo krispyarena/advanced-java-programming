@@ -1,4 +1,4 @@
-package biplove;
+package core;
 
 public class GettersDemo {
     public static void main(String[] args) {

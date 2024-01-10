@@ -1,4 +1,4 @@
-package biplove;
+package core;
 
 
 class ConsTest {
