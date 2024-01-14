@@ -57,3 +57,6 @@ Working of a CORBA Program:
     8. Result is returned to client:
         The client receives the processed data.
 
+
+    CORBA is a powerful tool for building large-scale, distributed systems that need to integrate diverse components. Understanding its concepts and strengths can help you determine if it's suitable for your project's needs.
+
