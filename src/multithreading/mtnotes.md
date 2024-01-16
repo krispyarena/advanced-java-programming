@@ -18,3 +18,12 @@ How It Works:
 
     5. Task Completion
         Once a thread finishes its task, it signals completion and release its resources.
+
+
+Benefits of Multithreading:
+
+    1. Improved Responsiveness
+        Programs can handle multiple tasks at once, making them feel more responsive to user input.
+
+    2. Better Use of Resources
+        Threads can take advantage of idle CPU time, maximising hardware utilisation.
