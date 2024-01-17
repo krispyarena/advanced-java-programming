@@ -61,4 +61,6 @@ Key Concepts
 
 Note
 
-    Multithreading is a powerful tool, but it requires careful planning and coordination to avoid potential pitfalls. It is essential to consider thread safety, synchronisation and deadlock prevention while designing multithreaded applications
+    Multithreading is a powerful tool, but it requires careful planning and coordination to avoid potential pitfalls.
+    
+    It is essential to consider thread safety, synchronisation and deadlock prevention while designing multithreaded applications
