@@ -24,7 +24,7 @@ public class App extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //setBackground(new Color(50,255,100));
 
-        ImageIcon image = new ImageIcon("logo.png");
+        ImageIcon image = new ImageIcon("images/logo.png");
         setIconImage(image.getImage());
 
         //getContentPane().setBackground(new Color(0X123456));
@@ -33,7 +33,7 @@ public class App extends JFrame{
         label.setText("Bavarian Motor Works");
         add(label);
 
-        ImageIcon image1 = new ImageIcon("fcb.jpg");
+        ImageIcon image1 = new ImageIcon("images/fcb.jpg");
 
         Border border = BorderFactory.createLineBorder(Color.MAGENTA, 3, true);
 
