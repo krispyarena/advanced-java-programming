@@ -47,9 +47,10 @@ Error
 
 
             Object
-              |
+               |
            Throwable
-    
+         ______|__________
+        |                 |
     Exception           Error
 
 Keywords
@@ -98,6 +99,33 @@ Finally Block
 
     Finally block won't execute if program exits either by calling System.exit() or by causing a fatal error that forces the process to abort.
 
+Throws Keyword
+
+    - if a method doesnot handle a checked exception by using try,catch,finally blocks then the method must declare
+      exception using the throws keyword.
+    - throws keyword helps to forward exception to method caller which can be again forwarded up in the heirarchy.
+    - if all the calling methods are using throws and no more calling method is available to handle the exception
+      JVM itself will handle the exception.
+    - throws keyword appears at the end of the method's singnature.
+
+        example:
+
+        class ThrowsException{
+
+            static void divide(int a, int b) throws ArithmeticException{
+                int c = a/b;
+            }
+
+            public static void main(String[] args){
+                try{
+                    divide(12,0);
+                }
+                catch(ArithmeticException e){
+                    e.printStackTrace();
+                }
+            }
+        }
+
 Throw Keyword
 
     - used to explicitly throw an exception
@@ -110,3 +138,10 @@ Java Exception Propagation
     drops down call stack to the previous method.
 
     This process continues until the exception is caught.
+
+Throwing a Custom Exception
+
+    - Inherit the custom class from Exception class
+    - throw that custom exception
+    - enclose the code which can throw exception in try block
+    - catch that exception using catch block
