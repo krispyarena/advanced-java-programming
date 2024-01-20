@@ -144,4 +144,4 @@ Throwing a Custom Exception
     - Inherit the custom class from Exception class
     - throw that custom exception
     - enclose the code which can throw exception in try block
-    - catch that exception using catch block.
+    - catch that exception using catch block
