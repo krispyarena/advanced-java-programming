@@ -89,7 +89,7 @@ Nested try
     - sometimes, a situation may arise where a part of block may cause one error and the
       entire block itself may cause another error. In such case, exception handlers have to be nested.
 
-Finally Block
+finally Block
 
     - used to execute important code such as closing connection, stream, etc
     - this block is always executed whether exception is handled or not.
@@ -99,7 +99,7 @@ Finally Block
 
     Finally block won't execute if program exits either by calling System.exit() or by causing a fatal error that forces the process to abort.
 
-Throws Keyword
+throws Keyword
 
     - if a method doesnot handle a checked exception by using try,catch,finally blocks then the method must declare
       exception using the throws keyword.
@@ -126,7 +126,7 @@ Throws Keyword
             }
         }
 
-Throw Keyword
+throw Keyword
 
     - used to explicitly throw an exception
     - both checked/unchecked exception can be thrown.
