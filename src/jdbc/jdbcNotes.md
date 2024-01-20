@@ -30,7 +30,7 @@ Steps to connect to database in JAVA:
 
 Adding a JAR File
 
-        JAR Stands for JAVA Archive. Download respective JDBC Driver JAR file.
+        JAR stands for JAVA Archive. Download respective JDBC Driver JAR file.
 
         Place that .jar file in "Referenced Libraries"
 
