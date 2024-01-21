@@ -1,4 +1,4 @@
-package exception_handling;
+package exceptionHandling;
 
 public class SimpleException {
     public static void main(String[] args){

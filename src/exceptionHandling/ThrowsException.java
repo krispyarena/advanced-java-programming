@@ -1,4 +1,4 @@
-package exception_handling;
+package exceptionHandling;
 
 public class ThrowsException {
     
