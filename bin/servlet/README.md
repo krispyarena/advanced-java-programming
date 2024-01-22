@@ -1,3 +1,3 @@
-Servlets program can be run in "eclipse IDE for Enterprise Java and Web Developers"
+    Servlets program can be run in "eclipse IDE for Enterprise Java and Web Developers"
+    Program is included here for study purpose only.
 
-Program is included here for study purpose only.
