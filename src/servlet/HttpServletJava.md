@@ -14,7 +14,7 @@ Program to Calculate SI using HttpServlet and JSP
 	import javax.servlet.http.HttpServletResponse;
 
 	@WebServlet("/SIServlet")
-	public class SIServlet extends HttpServlet{
+	public class HtServlet extends HttpServlet{
 
 		private static final long serialVersionUID = 1L;
 		
