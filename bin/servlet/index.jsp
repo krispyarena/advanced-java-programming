@@ -9,6 +9,8 @@
 <body>
 <h3 style="color:red; font-family:consolas">SI Calculator</h3>
 
-<a href = "SIServlet">calculate SI</a>
+<a href = "SIServlet">calculate SI</a><br><br>
+
+<a href = "SimpleServlet">simple Servlet</a><br><br>
 </body>
 </html>
