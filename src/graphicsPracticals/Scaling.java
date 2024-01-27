@@ -17,9 +17,9 @@ class Scaling extends JFrame{
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setVisible(true);
     px1 = x1*sx;
-    py1 = y1*sy;
-
     px2 = x2*sx;
+    
+    py1 = y1*sy;
     py2 = y2*sy;
   }
 
