@@ -1,3 +1,16 @@
+Socket
+
+    - It is an endpoint of a two way communication link between two programs running on the network.
+    - It is bound to a port number so that the TCP layer can identify the application that data is destined to send
+
+    - Java Socket Programming is used for communication between the application that is running on different JREs.
+    - It can either be connection oriented or connection less.
+    - Socket and ServerSocket classes are used for connection-oriented socket programming.
+    - DatagramPacket and DatagramSocket classes are used for connection-less socket programming.
+    - The client in socket programming must know two information:
+        i. IP Address of the Server
+        ii. Port Number 
+
 Network Programming using TCP/IP
 
     In Server:
