@@ -2,6 +2,8 @@ Common Object Request Broker Architecture [CORBA]
 
     - Technology used to communicate two objects of heterogenous type.
     - Distributed object based system.
+    - Provides interoperability.
+    - "Software Bus" as it is a software-based communication interface through which objects are located and accessed.
 
 Benefits of CORBA:
 
@@ -29,6 +31,8 @@ Difference from RMI:
 
     Standardisation
         CORBA is an industry-wide standard, while RMI is JAVA-specific technology.
+
+    CORBA uses IDL[Interface Definition Language] to seperate interface from implementation while RMI simply uses JAVA interfaces.
 
 
 Working of a CORBA Program:
