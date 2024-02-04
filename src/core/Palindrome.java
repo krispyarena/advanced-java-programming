@@ -6,7 +6,7 @@ public class Palindrome{
 public static void main(String[] args) {
 
     Scanner sc= new Scanner(System.in);
-    
+
     System.out.println("Enter  a number");
     var i=sc.nextInt();
 
@@ -15,9 +15,9 @@ public static void main(String[] args) {
     int rev=0;
 
     do{
-         r= i%10;
-         rev=10*rev+r;
-         i=i/10;
+        r= i%10;
+        rev=10*rev+r;
+        i=i/10;
 
 
     } while(i!=0);
