@@ -1,6 +1,11 @@
 Multithreading
 
-    It allows computer to handle multiple tasks at once making it more responsive and efficient.
+    - It allows computer to handle multiple tasks at once making it more responsive and efficient.
+    - It is mostly used in games, animation, etc.
+    - A thread is a lightweight sub-process, the smallest unit of processing.
+    - Multithreading & multiprocessing, both are used to achieve multitasking.
+    - Multithreading is prefered more than multiprocessing because threads use a shared memory area.
+    - Threads don't allocate seperate memory area so saves memory, and context-switching between the threads takes less time than process.
 
 How It Works:
 
