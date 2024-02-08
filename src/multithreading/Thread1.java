@@ -6,7 +6,7 @@ public class Thread1 extends Thread{
 
     Thread1(String name){
         tname = name;
-        System.out.println("Creating Thread " +  tname);
+        System.out.println("Creating Thread " + tname);
     }
 
     @Override
@@ -31,6 +31,11 @@ class ThreadDemo {
         Thread1 t2 = new Thread1("T2");
 
         t1.start();
+        t1.setPriority(1);
         t2.start();
+
+        System.out.println("T2 Priority" + t2.getPriority());
+        System.out.println("T2 ID " + t2.getId());
+        System.out.println("T2 Name " + t2.getName());
     }
 }

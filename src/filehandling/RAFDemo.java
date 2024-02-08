@@ -33,6 +33,8 @@ public class RAFDemo {
             raf.seek(14);
             System.out.println(raf.readUTF());
 
+            System.out.println(raf.getFilePointer());
+
             raf.close();
         }
 

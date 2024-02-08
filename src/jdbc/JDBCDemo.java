@@ -19,7 +19,7 @@ public class JDBCDemo {
             ResultSet rs = stm.executeQuery("SELECT * FROM STUDENT");
 
             while(rs.next()){
-                System.out.println("Name : " + rs.getString(1) +" " + "Roll : " + rs.getInt(2));
+                System.out.println("Name : " + rs.getString("Name") +" " + "Roll : " + rs.getInt("Roll"));
             }
 
             rs.close();
