@@ -10,7 +10,7 @@
 <h3 style="color:green; font-family:consolas" align="left">JSP file to display "Lalitpur,Nepal" 10 Times</h3>
 
 <p align="left">
-<% 
+<%
 int i = 1;
 do{
 	
